@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mustafa's Electrical Engineering Portfolio. Showcasing education, technical skills, projects, and contact information.">
+    <meta name="keywords" content="Electrical Engineering, Portfolio, Power Systems, Circuit Design, AutoCAD, MATLAB, Arduino, Solar PV">
+    <meta name="author" content="Mustafa">
+    <title>Mustafa | Electrical Engineering Portfolio</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-bolt logo-icon"></i>
+                <div class="logo-text">
+                    <span class="logo-name">MUSTAFA</span>
+                    <span class="logo-sub">EE GRADUATE</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-container container">
+                <div class="hero-profile-area">
+                    <div class="profile-circle">
+                        <img src="images/profile.jpg" alt="Mustafa - Electrical Engineering Graduate" class="profile-img">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Mustafa</h1>
+                    <h2 class="hero-subtitle">Electrical Engineering Graduate</h2>
+                    <p class="hero-description">
+                        Passionate Electrical Engineering Graduate from Mandera University with a strong foundation in power systems, electronics, and automation. Eager to contribute technical skills and innovative solutions to real-world engineering challenges.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="files/Mustafa_CV.pdf" download class="btn btn-primary">
+                            <i class="fa-solid fa-download btn-icon"></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-paper-plane btn-icon"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">ABOUT ME</span>
+                    <h2 class="section-title">Who I Am</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="about-text">
+                            I am an Electrical Engineering Graduate from Mandera University. My academic journey has equipped me with technical knowledge, problem-solving skills, and hands-on experience in various areas of electrical engineering.
+                        </p>
+                        
+                        <div class="about-meta-list">
+                            <div class="about-meta-item">
+                                <div class="meta-icon-wrapper">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div class="meta-text">
+                                    <strong>University:</strong> Mandera University
+                                </div>
+                            </div>
+                            <div class="about-meta-item">
+                                <div class="meta-icon-wrapper">
+                                    <i class="fa-solid fa-award"></i>
+                                </div>
+                                <div class="meta-text">
+                                    <strong>Status:</strong> Graduated
+                                </div>
+                            </div>
+                            <div class="about-meta-item align-start">
+                                <div class="meta-icon-wrapper">
+                                    <i class="fa-solid fa-circle-nodes"></i>
+                                </div>
+                                <div class="meta-text">
+                                    <strong>Areas of Interest:</strong>
+                                    <span class="interest-tags">
+                                        <span>Power Systems</span>, 
+                                        <span>Electronics</span>, 
+                                        <span>Renewable Energy</span>, 
+                                        <span>Telecommunications</span>, 
+                                        <span>Automation & Control</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image-wrapper">
+                        <div class="image-frame">
+                            <!-- Styled blueprint grid overlay on top of about image -->
+                            <div class="blueprint-overlay"></div>
+                            <img src="images/about.jpg" alt="Engineering blueprint, hard hat and multimeter" class="about-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">SKILLS</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Skill 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h3 class="skill-name">Electrical Installation</h3>
+                    </div>
+                    <!-- Skill 2 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3 class="skill-name">Wiring</h3>
+                    </div>
+                    <!-- Skill 3 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3 class="skill-name">Circuit Design</h3>
+                    </div>
+                    <!-- Skill 4 -->
+                    <div class="skill-card">
+                        <div class="skill-icon text-cad">
+                            <!-- Custom representation icon -->
+                            <span class="icon-letter">A</span>
+                        </div>
+                        <h3 class="skill-name">AutoCAD Electrical</h3>
+                    </div>
+                    <!-- Skill 5 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-industry"></i>
+                        </div>
+                        <h3 class="skill-name">PLC Programming</h3>
+                    </div>
+                    <!-- Skill 6 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="skill-name">MATLAB</h3>
+                    </div>
+                    <!-- Skill 7 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-solar-panel"></i>
+                        </div>
+                        <h3 class="skill-name">Solar PV Systems</h3>
+                    </div>
+                    <!-- Skill 8 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3 class="skill-name">Electrical Maintenance</h3>
+                    </div>
+                    <!-- Skill 9 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-circle-dot"></i>
+                        </div>
+                        <h3 class="skill-name">Arduino</h3>
+                    </div>
+                    <!-- Skill 10 -->
+                    <div class="skill-card highlight-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                        </div>
+                        <h3 class="skill-name">Other Electrical Engineering Skills</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">PROJECTS</span>
+                    <h2 class="section-title">Featured Project</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image-side">
+                        <img src="images/transformer.jpg" alt="Transformer Design and Analysis" class="project-img">
+                    </div>
+                    <div class="project-content-side">
+                        <h3 class="project-title">Transformer Design and Performance Analysis</h3>
+                        <p class="project-desc">
+                            Designed and analyzed a single-phase transformer to evaluate its performance under different load conditions.
+                        </p>
+                        
+                        <div class="project-details">
+                            <div class="detail-item">
+                                <i class="fa-solid fa-circle-check detail-icon"></i>
+                                <span>Performed transformer design calculations and parameter selection.</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-circle-check detail-icon"></i>
+                                <span>Analyzed voltage regulation, efficiency, and power losses.</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-circle-check detail-icon"></i>
+                                <span><strong>Tools Used:</strong> MATLAB, AutoCAD Electrical, Microsoft Excel</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-circle-check detail-icon"></i>
+                                <span><strong>Outcome:</strong> Gained deeper understanding of transformer operation and improved skills in electrical calculations, simulation, and technical reporting.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">CONTACT</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info-side">
+                        <p class="contact-intro">
+                            I'm open to opportunities, collaborations, and networking. Feel free to reach out!
+                        </p>
+                        
+                        <div class="contact-badges">
+                            <a href="mailto:mustafa@gmail.com" class="info-badge">
+                                <div class="badge-icon-box">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="badge-content">
+                                    <span class="badge-label">Email</span>
+                                    <span class="badge-value">mustafa@gmail.com</span>
+                                </div>
+                            </a>
+                            
+                            <a href="tel:+25472291799" class="info-badge">
+                                <div class="badge-icon-box">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="badge-content">
+                                    <span class="badge-label">Phone</span>
+                                    <span class="badge-value">+25472291799</span>
+                                </div>
+                            </a>
+                            
+                            <div class="info-badge">
+                                <div class="badge-icon-box">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="badge-content">
+                                    <span class="badge-label">Location</span>
+                                    <span class="badge-value">Nairobi, Kenya</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-side">
+                        <form id="contact-form" class="contact-form" action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-name" class="form-label">Full Name</label>
+                                    <input type="text" id="form-name" class="form-control" placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-email" class="form-label">Email Address</label>
+                                    <input type="email" id="form-email" class="form-control" placeholder="your.email@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-message" class="form-label">Your Message</label>
+                                    <textarea id="form-message" class="form-control text-area" rows="5" placeholder="Write your message here..." required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <i class="fa-solid fa-paper-plane btn-icon"></i> Send Message
+                            </button>
+                            <div class="form-status-msg" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <i class="fa-solid fa-bolt footer-logo-icon"></i> MUSTAFA
+            </div>
+            <p class="copyright">
+                &copy; 2026 Mustafa. All Rights Reserved. Designed for Electrical Engineers.
+            </p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
